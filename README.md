@@ -9,6 +9,7 @@ File used: emotion_sentimen_dataset.csv
 url: https://www.kaggle.com/datasets/simaanjali/emotion-analysis-based-on-text
 
 **Steps:**
+
 1️. Data Preprocessing
 Removed user mentions (@username), URLs, numbers, punctuation
 Converted text to lowercase
