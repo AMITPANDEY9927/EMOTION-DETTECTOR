@@ -1,35 +1,36 @@
-# EMOTION-DETTECTOR
+**EMOTION-DETECTOR**  
 
-**Overview:**
-the project aimed to identify a emotion of a person based on the text input given to it.
+**Overview:**  
+This project aims to identify the emotion of a person based on the given text input.  
 
-**Dataset:**
-Contains text labeled with emotions like anger, love, hate, worry, neutral, etc.
-File used: emotion_sentimen_dataset.csv
-url: https://www.kaggle.com/datasets/simaanjali/emotion-analysis-based-on-text
+**Dataset:**  
+- Contains text labeled with emotions like anger, love, hate, worry, neutral, etc.  
+- File used: `emotion_sentimen_dataset.csv`  
+- Source: [Kaggle Dataset](https://www.kaggle.com/datasets/simaanjali/emotion-analysis-based-on-text)  
 
-**Steps:**
+**Steps:**  
 
-1️. Data Preprocessing
-Removed user mentions (@username), URLs, numbers, punctuation
-Converted text to lowercase
-Balanced dataset by selecting equal samples for each emotion
+**1. Data Preprocessing**  
+- Removed user mentions (@username), URLs, numbers, and punctuation.  
+- Converted text to lowercase.  
+- Balanced the dataset by selecting equal samples for each emotion.  
 
-2️. Feature Extraction
-Used TF-IDF Vectorization (max 2500 features)
+**2. Feature Extraction**  
+- Used **TF-IDF Vectorization** with a max of 2500 features.  
 
-3️. Model Training
-Algorithm: Random Forest Classifier
-Train-Test Split: 80% training, 20% testing
-Accuracy: ~0.96
+**3. Model Training**  
+- Algorithm: **Random Forest Classifier**  
+- Train-Test Split: **80% training, 20% testing**  
+- Accuracy: **~0.89 - 0.91**  
 
-4️. Prediction
-Users can enter text to get an emotion prediction
+**4. Prediction**  
+- Users can enter a sentence, and the model predicts the emotion.  
 
-**Running the Project:**
+**Running the Project:**  
 
-Install dependencies:
-pip install pandas numpy scikit-learn matplotlib seaborn
+**Install Dependencies:**  
+pip install pandas numpy scikit-learn matplotlib seaborn neattext joblib
 
-Run the script:
+Run the Script:
 python EmotionDetector.py
+
