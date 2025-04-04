@@ -30,5 +30,6 @@ Users can enter text to get an emotion prediction
 
 Install dependencies:
 pip install pandas numpy scikit-learn matplotlib seaborn
+
 Run the script:
 python EmotionDetector.py
