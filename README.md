@@ -6,6 +6,7 @@ the project aimed to identify a emotion of a person based on the text input give
 **Dataset:**
 Contains text labeled with emotions like anger, love, hate, worry, neutral, etc.
 File used: emotion_sentimen_dataset.csv
+url: https://www.kaggle.com/datasets/simaanjali/emotion-analysis-based-on-text
 
 **Steps:**
 1️. Data Preprocessing
