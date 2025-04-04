@@ -21,7 +21,7 @@ This project aims to identify the emotion of a person based on the given text in
 **3. Model Training**  
 - Algorithm: **Random Forest Classifier**  
 - Train-Test Split: **80% training, 20% testing**  
-- Accuracy: **~0.89 - 0.91**  
+- Accuracy: **~0.84**  
 
 **4. Prediction**  
 - Users can enter a sentence, and the model predicts the emotion.  
