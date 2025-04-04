@@ -26,10 +26,9 @@ Accuracy: ~0.96
 4️. Prediction
 Users can enter text to get an emotion prediction
 
-Running the Project
-Install dependencies:
+**Running the Project:**
 
-nginx
+Install dependencies:
 pip install pandas numpy scikit-learn matplotlib seaborn
 Run the script:
 python EmotionDetector.py
